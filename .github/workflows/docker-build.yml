@@ -27,4 +27,4 @@ jobs:
 
       - name: Push My Docker Image
         run: |
-          docker push chprangarao/kube:ai-200-aks-v1
+          docker push chprangarao1/kube:ai-200-aks-v1
