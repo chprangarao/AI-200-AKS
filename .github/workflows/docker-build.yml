@@ -23,8 +23,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t chprangarao1/kube:ai-200-aks-v1 .
+          docker build -t chprangarao1/kube:ai-200-aks-v2 .
 
       - name: Push My Docker Image
         run: |
-          docker push chprangarao1/kube:ai-200-aks-v1
+          docker push chprangarao1/kube:ai-200-aks-v2
